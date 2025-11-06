@@ -1,0 +1,170 @@
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+background: #1F04AB;
+background: radial-gradient(at left bottom, #00fff2, #fafafa);
+         
+        }
+         .container {
+            text-align: center;
+            background-color: rgba(0, 255, 76, 0.1);
+            border-radius: 20px;
+            padding: 30px;
+            box-shadow: 0 10px 30px rgba(0, 255, 157, 0.3);
+            backdrop-filter: blur(10px);
+            max-width: 500px;
+            width: 100%;
+        }
+          h1 {
+            color: white;
+            margin-bottom: 30px;
+            font-size: 32px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+    .petuh {
+            position: absolute;
+            width: 75px;
+            height: 100px;
+            background: linear-gradient(135deg, hwb(66 0% 1%), #ffbe32);
+            border-radius: 120px 120px 150px 150px;
+            top: 450px;
+            left: 1025px;
+            z-index: 2;
+            box-shadow  : inset 0 -5px 15px rgba(0, 0, 0, 0.2);
+        }
+           .petuh-head {
+            position: absolute;
+            width: 95px;
+            height: 95px;
+            background: linear-gradient(135deg, hwb(66 0% 1%), #ffbe32);
+            border-radius: 500px 500px 400px 400px;
+            top: 375px;
+            left: 1015px;
+            z-index: 2;
+            box-shadow  : inset 0 -5px 15px rgba(0, 0, 0, 0.2);
+        }
+          .petuh-ice {
+            position: absolute;
+            width: 15px;
+            height: 15px;
+            background: linear-gradient(135deg, hwb(0 0% 100%), #000000);
+            border-width: 1px;
+            border-style:ridge;
+            border-color: black;
+
+            border-radius: 500px 500px 500px 500px;
+            top: 410px;
+            left: 1030px;
+            z-index: 2;
+            box-shadow  : inset 0 -5px 15px rgba(0, 0, 0, 0.2);
+        }
+          
+          .petuh-ice2 {
+            position: absolute;
+            width: 15px;
+            height: 15px;
+            background: linear-gradient(135deg, hwb(0 0% 100%), #000000);
+            border-width: 1px;
+            border-style:ridge;
+            border-color: black;
+
+            border-radius: 500px 500px 500px 500px;
+            top: 410px;
+            left: 1080px;
+            z-index: 2;
+            box-shadow  : inset 0 -5px 15px rgba(0, 0, 0, 0.2);
+        }
+         .petuh-kluv {
+            position: absolute;
+            width: 15px;
+            height: 15px;
+            background: linear-gradient(135deg, hwb(39 14% 23%), #d8801c);
+ border-left: 20px solid transparent;
+  border-right: 20px solid transparent; border-top: 15px solid  #d8801c; 
+ 
+            border-radius: 500px 500px 500px 500px;
+            top: 431px;
+            left: 1042px;
+            z-index: 2;
+            box-shadow  : inset 0 -5px 15px rgba(0, 0, 0, 0.2);
+        }
+            .petuh-noga {
+            position: absolute;
+            width: 5px;
+            height: 30px;
+            background: linear-gradient(135deg, hwb(39 0% 0%), #ff8800);
+
+            border-radius: 500px 500px 500px 500px;
+            top: 546px;
+            left: 1049px;
+            z-index: 2;
+            box-shadow  : inset 0 -5px 15px rgba(0, 0, 0, 0.2);
+        }
+               
+            .petuh-noga2 {
+            position: absolute;
+            width: 5px;
+            height: 30px;
+            background: linear-gradient(135deg, hwb(39 0% 0%), #ff8800);
+
+            border-radius: 500px 500px 500px 500px;
+            top: 546px;
+            left: 1069px;
+            z-index: 2;
+            box-shadow  : inset 0 -5px 15px rgba(0, 0, 0, 0.2);
+        }
+        .petuh-kogot {
+            position: absolute;
+            width: 3px;
+            height: 10px;
+            transform: rotate(85deg) ;
+            background: linear-gradient(135deg, hwb(39 0% 0%), #ff8800);
+            border-radius: 500px 500px 1000px 1000px;
+            top: 570px;
+            left: 1044px;
+            z-index: 2;
+            box-shadow  : inset 0 -5px 15px rgba(0, 0, 0, 0.2);
+        }
+                .petuh-kogot:nth-child(1) {
+                            top: 574px;
+            left: 1050px;
+                     transform: rotate(0deg) ;
+                } 
+                   .petuh-kogot:nth-child(2) {
+                      top: 570px;
+            left: 1056px;
+                     transform: rotate(275deg) ;
+                } 
+                 .petuh-kogot2{
+            position: absolute;
+            width: 3px;
+            height: 10px;
+            transform: rotate(85deg) ;
+            background: linear-gradient(135deg, hwb(39 0% 0%), #ff8800);
+            border-radius: 500px 500px 1000px 1000px;
+            top: 570px;
+            left: 1063px;
+            z-index: 2;
+            box-shadow  : inset 0 -5px 15px rgba(0, 0, 0, 0.2);
+        }
+        .petuh-kogot2:nth-child(1) {
+                            top: 574px;
+            left: 1070px;
+                     transform: rotate(0deg) ;
+                } 
+                  
+                   .petuh-kogot2:nth-child(2) {
+                      top: 570px;
+            left: 1063px;
+                     transform: rotate(275deg) ;
+                }
